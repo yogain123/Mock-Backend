@@ -1,0 +1,13 @@
+{
+  "name": "fake-backend",
+  "version": "1.0.0",
+  "description": "Mocking Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -p 3007 -w db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yogendra Saxena",
+  "license": "ISC",
+  "dependencies": {}
+}
