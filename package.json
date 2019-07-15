@@ -9,5 +9,7 @@
   },
   "author": "Yogendra Saxena",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "json-server": "^0.15.0"
+  }
 }
