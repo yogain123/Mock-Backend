@@ -34,4 +34,4 @@ That is all you have to do if you want to set up a fake backend server :)
 
 If you make a POST call, then data will automatically get updated in db.json.
 
-**Folk, Star and contribute**
+**Fork, Star and contribute**
