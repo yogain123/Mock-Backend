@@ -1,3 +1,37 @@
-Require Node Version 8 or above
+How do we Use it 
+-------
+Working as a frontend engineer and building a dummy or proof-of-concept project without a complete backend might be very challenging to set up REST API’s. 
+You can use Firebase or many other things to setup backend without writing much code. BUT,
+There is a way to set up an incredibly simple backend server running on your localhost. 
+It will be a Node project.
+Let’s assume you have a frontend, we can create a backend server using an NPM module json-server.
+Let name your node project “FakeBackend”.
 
-Explaination: https://medium.com/@yogendrasaxena56/setting-a-fake-backend-server-in-less-than-60-seconds-a5b1a9c425ef
+**Steps:**
+
+- Make a directory FakeBackend
+- cd FakeBackend
+- npm init
+- Follow the setup CLI by providing basics info for you Node project
+- npm install json-server -g
+- Make a db.json file. Run touch db.json
+- You need to watch that file
+- In package.json write a start script as => json-server -p 3007 -w db.json
+- Put your JSON in db.json
+- npm start
+
+That is all you have to do if you want to set up a fake backend server :)
+
+**Making an API call from POSTMAN**
+
+**GET ::: localhost:3007/posts/2**
+```
+{
+  “name”: “yogi”,
+  “id”: 2
+}
+```
+
+If you make a POST call, then data will automatically get updated in db.json.
+
+**Folk, Star and contribute**
