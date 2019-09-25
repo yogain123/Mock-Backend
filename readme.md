@@ -31,7 +31,6 @@ That is all you have to do if you want to set up a fake backend server :)
   "age": 25,
   "country": "INDIA",
   "profession": "Engineer"
-}”: 2
 }
 ```
 
