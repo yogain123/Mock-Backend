@@ -24,11 +24,14 @@ That is all you have to do if you want to set up a fake backend server :)
 
 **Making an API call from POSTMAN**
 
-**GET ::: localhost:3007/posts/2**
+**GET ::: localhost:3007/profile**
 ```
 {
-  “name”: “yogi”,
-  “id”: 2
+  "name": "yogendra",
+  "age": 25,
+  "country": "INDIA",
+  "profession": "Engineer"
+}”: 2
 }
 ```
 
