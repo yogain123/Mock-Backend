@@ -37,3 +37,14 @@ That is all you have to do if you want to set up a fake backend server :)
 If you make a POST call, then data will automatically get updated in db.json.
 
 **Fork, Star and contribute**
+
+## How to Run
+```
+npm install
+npm start
+or
+npx json-server -p 1234 -w db.json
+```
+
+## Author
+Yogendra Saxena
