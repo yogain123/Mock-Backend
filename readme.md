@@ -43,7 +43,7 @@ If you make a POST call, then data will automatically get updated in db.json.
 npm install
 npm start
 or
-npx json-server -p 1234 -w db.json
+npx json-server -p 3007 -w db.json
 ```
 
 ## Author
